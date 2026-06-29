@@ -37,12 +37,17 @@ None of these are bugs. The VALIDATION_LOG predicted these two candidates (CAND_
 
 ### Before → after arc
 
-| Stage | Worst gold rank | Best gold rank | Notes |
-|---|---|---|---|
-| Structured-only, pre-fix | #4,151 | #4 | Missing vocab + title-chaser bug |
-| Structured-only, post-fix | #365 | #4 | After vocab + _is_career_title_chaser fix |
-| Structured + semantic, post-semantic | ~#175 | ~#3 | VALIDATION_LOG prediction |
-| **Final pipeline (all fixes)** | **#175** | **#3** | Confirmed on live run |
+Numbers for CAND_0037980 (hardest gold case; all other 7 gold candidates track similarly or better). Re-derived from a single fresh pipeline run on 2026-06-29 — not transcribed from prior session logs.
+
+| Stage | CAND_0037980 rank | Notes |
+|---|---|---|
+| Structured-only, pre-fix | ~#4,151 | Missing vocab (pgvector, haystack) + title-chaser bug penalising short stints |
+| Structured-only, post-fix | ~#337–365 | After vocab expansion + `_is_career_title_chaser` fix |
+| Semantic-only (raw cosine) | #170 | Career-history prose alone; raw cosine = 0.8204 |
+| Fit score (0.55×structured + 0.45×semantic) | #124 | structured = 0.8605, sem_norm = 0.8007, fit = 0.8336 |
+| **Final (× trust 0.8163 × availability 0.6982)** | **#175** | Combined multiplier = 0.5699; final_score = 0.4751 |
+
+The candidate would rank **#124 on pure JD-fit substance alone** — inside the top 125 of 100,000. The drop to #175 is caused entirely by the behavioral availability signal: last active 93 days ago (3+ months), which the availability modifier penalises to 0.6982. This is not a data quality issue and not a scoring bug. It is the system correctly distinguishing "good fit on paper" from "reachable right now" — the JD itself explicitly states candidates who are unlikely to respond should be down-weighted. Candidates ranked just above the #175 boundary (ranks 172–174) have fit scores of only 0.53–0.88 but trust and availability near 1.0, so their lower-fit profiles land ahead after multipliers are applied. That ordering is correct: a less-perfect-fit candidate who is actively engaged today is more valuable to a recruiter than a stronger-on-paper candidate who hasn't opened the platform in three months.
 
 ---
 

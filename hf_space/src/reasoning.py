@@ -68,10 +68,24 @@ def _tier_label(final_score: float) -> str:
     return "honeypot"
 
 
-def _opening_clause(candidate: dict, result: FinalScoreResult) -> str:
+def _opening_clause(candidate: dict, result: FinalScoreResult,
+                    has_title_note: bool = False) -> str:
     p = candidate["profile"]
     seed = candidate["candidate_id"] + "open"
     tier = _tier_label(result.final_score)
+
+    # When the immediately-following sentence will characterize the title
+    # ("direct match" or "functionally adjacent"), omit the tier qualifier
+    # from the opening. Score-based tier and title-based classification are
+    # computed independently and can disagree — "Adjacent profile: ..." +
+    # "Title is a direct match" or "Strong fit: ..." + "functionally adjacent"
+    # are both contradictions that undermine trust in the output.
+    if has_title_note:
+        templates = [
+            f"{p['current_title']} at {p['current_company']}, {p['years_of_experience']}y experience",
+            f"{p['current_title']} ({p['current_company']}, {p['years_of_experience']}y)",
+        ]
+        return _pick(seed, templates)
 
     if tier == "strong":
         templates = [
@@ -200,8 +214,10 @@ def generate_reasoning(candidate: dict, result: FinalScoreResult) -> str:
         reason = result.honeypot_notes[0] if result.honeypot_notes else "internally inconsistent profile data"
         return f"Excluded: profile data is internally inconsistent ({reason}) - likely a fabricated/honeypot record, not a genuine candidate."
 
-    opening = _opening_clause(candidate, result)
     positives = _top_positive_notes(result, n=2)
+    _TITLE_NOTE_MARKERS = ("direct match", "functionally adjacent")
+    has_title_note = bool(positives) and any(m in positives[0] for m in _TITLE_NOTE_MARKERS)
+    opening = _opening_clause(candidate, result, has_title_note=has_title_note)
     concerns = _top_concern_notes(result, n=1)
 
     sentence_parts = [opening + "."]

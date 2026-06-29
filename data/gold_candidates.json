@@ -1,0 +1,1805 @@
+[
+  {
+    "candidate_id": "CAND_0005538",
+    "profile": {
+      "anonymized_name": "Aryan Goyal",
+      "headline": "Senior Engineer | 5.9+ yrs in production systems",
+      "summary": "Senior engineer who has spent the last several years building systems that connect users with relevant information at scale. Comfortable across the full stack from infrastructure to algorithms to product experience, though most of my time has been in the middle layer \u2014 the ranking and retrieval systems that decide what to show. Strong preference for shipping real systems over research-only work; I'd rather have a working v1 in 6 weeks than a perfect v2 in 6 months. I've made the standard mistakes \u2014 over-engineering early, optimizing offline metrics that didn't move online numbers, building beautiful infrastructure for features that users didn't actually want \u2014 so I notice them faster now. Looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end at a product company.",
+      "location": "Kolkata, West Bengal",
+      "country": "India",
+      "years_of_experience": 5.9,
+      "current_title": "Senior AI Engineer",
+      "current_company": "Adobe",
+      "current_company_size": "10001+",
+      "current_industry": "Software"
+    },
+    "career_history": [
+      {
+        "company": "Adobe",
+        "title": "Senior AI Engineer",
+        "start_date": "2025-03-03",
+        "end_date": null,
+        "duration_months": 15,
+        "is_current": true,
+        "industry": "Software",
+        "company_size": "10001+",
+        "description": "Led the engineering team building infrastructure to surface relevant content to users at scale. The system processed billions of documents and served millions of queries with low latency. Most of the technical effort went into the boring-but-essential parts: index refresh, query understanding, ranking calibration, and the dashboards that made the system's behavior legible to product and business teams. I had a small team of 4 across this work."
+      },
+      {
+        "company": "Locobuzz",
+        "title": "Lead AI Engineer",
+        "start_date": "2022-09-15",
+        "end_date": "2025-03-03",
+        "duration_months": 30,
+        "is_current": false,
+        "industry": "AI/ML",
+        "company_size": "51-200",
+        "description": "Built systems that understand what users are looking for and connect them to the most relevant matches across a large dataset. Worked at the intersection of infrastructure, algorithms, and product judgment \u2014 none of the three were optional. Recent project was a complete overhaul of the matching layer; took it from a hand-tuned heuristic system to one with explicit modeling and evaluation. The team grew from just me to 6 engineers over the course of that work."
+      },
+      {
+        "company": "Google",
+        "title": "Senior Machine Learning Engineer",
+        "start_date": "2021-07-15",
+        "end_date": "2022-09-08",
+        "duration_months": 14,
+        "is_current": false,
+        "industry": "Internet",
+        "company_size": "10001+",
+        "description": "Built systems that understand what users are looking for and connect them to the most relevant matches across a large dataset. Worked at the intersection of infrastructure, algorithms, and product judgment \u2014 none of the three were optional. Recent project was a complete overhaul of the matching layer; took it from a hand-tuned heuristic system to one with explicit modeling and evaluation. The team grew from just me to 6 engineers over the course of that work."
+      },
+      {
+        "company": "Glance",
+        "title": "Lead AI Engineer",
+        "start_date": "2020-09-18",
+        "end_date": "2021-07-15",
+        "duration_months": 10,
+        "is_current": false,
+        "industry": "AI/ML",
+        "company_size": "501-1000",
+        "description": "Built and shipped a production recommendation system at a marketplace product, going from offline experimentation to live A/B test in 5 months. The system combined collaborative filtering (matrix factorization), content-based features (TF-IDF + sentence-transformer embeddings), and a behavioral re-ranking layer. The most interesting technical challenge was the cold-start problem for new users; I designed an exploration-exploitation policy using Thompson sampling that improved new-user retention by 11% in the first month."
+      }
+    ],
+    "education": [
+      {
+        "institution": "SRM University",
+        "degree": "B.Tech",
+        "field_of_study": "Data Science",
+        "start_year": 2003,
+        "end_year": 2008,
+        "grade": "8.86 CGPA",
+        "tier": "tier_2"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Project Management",
+        "proficiency": "intermediate",
+        "endorsements": 11,
+        "duration_months": 29
+      },
+      {
+        "name": "Vector Representations",
+        "proficiency": "expert",
+        "endorsements": 34,
+        "duration_months": 46
+      },
+      {
+        "name": "Deep Learning",
+        "proficiency": "expert",
+        "endorsements": 32,
+        "duration_months": 82
+      },
+      {
+        "name": "Content Matching",
+        "proficiency": "advanced",
+        "endorsements": 17,
+        "duration_months": 44
+      },
+      {
+        "name": "Apache Flink",
+        "proficiency": "intermediate",
+        "endorsements": 6,
+        "duration_months": 26
+      },
+      {
+        "name": "Feature Engineering",
+        "proficiency": "advanced",
+        "endorsements": 7,
+        "duration_months": 50
+      },
+      {
+        "name": "Statistical Modeling",
+        "proficiency": "intermediate",
+        "endorsements": 14,
+        "duration_months": 22
+      },
+      {
+        "name": "QLoRA",
+        "proficiency": "advanced",
+        "endorsements": 11,
+        "duration_months": 58
+      },
+      {
+        "name": "Python",
+        "proficiency": "advanced",
+        "endorsements": 16,
+        "duration_months": 38
+      },
+      {
+        "name": "PyTorch",
+        "proficiency": "expert",
+        "endorsements": 34,
+        "duration_months": 74
+      },
+      {
+        "name": "ASR",
+        "proficiency": "advanced",
+        "endorsements": 41,
+        "duration_months": 42
+      },
+      {
+        "name": "Data Science",
+        "proficiency": "advanced",
+        "endorsements": 12,
+        "duration_months": 43
+      },
+      {
+        "name": "LoRA",
+        "proficiency": "advanced",
+        "endorsements": 14,
+        "duration_months": 36
+      },
+      {
+        "name": "Information Retrieval Systems",
+        "proficiency": "advanced",
+        "endorsements": 56,
+        "duration_months": 55
+      },
+      {
+        "name": "pgvector",
+        "proficiency": "expert",
+        "endorsements": 48,
+        "duration_months": 91
+      },
+      {
+        "name": "Haystack",
+        "proficiency": "expert",
+        "endorsements": 28,
+        "duration_months": 51
+      },
+      {
+        "name": "Workflow Orchestration",
+        "proficiency": "expert",
+        "endorsements": 42,
+        "duration_months": 57
+      },
+      {
+        "name": "TTS",
+        "proficiency": "advanced",
+        "endorsements": 50,
+        "duration_months": 24
+      },
+      {
+        "name": "Natural Language Processing",
+        "proficiency": "expert",
+        "endorsements": 19,
+        "duration_months": 51
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Deep Learning Specialization",
+        "issuer": "Coursera/DeepLearning.AI",
+        "year": 2023
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "professional"
+      },
+      {
+        "language": "Hindi",
+        "proficiency": "conversational"
+      }
+    ],
+    "redrob_signals": {
+      "profile_completeness_score": 88.2,
+      "signup_date": "2025-02-24",
+      "last_active_date": "2026-05-17",
+      "open_to_work_flag": true,
+      "profile_views_received_30d": 322,
+      "applications_submitted_30d": 23,
+      "recruiter_response_rate": 0.81,
+      "avg_response_time_hours": 28.4,
+      "skill_assessment_scores": {
+        "Embeddings": 92.9
+      },
+      "connection_count": 416,
+      "endorsements_received": 68,
+      "notice_period_days": 90,
+      "expected_salary_range_inr_lpa": {
+        "min": 45.7,
+        "max": 69.6
+      },
+      "preferred_work_mode": "onsite",
+      "willing_to_relocate": false,
+      "github_activity_score": 58.0,
+      "search_appearance_30d": 1147,
+      "saved_by_recruiters_30d": 20,
+      "interview_completion_rate": 0.76,
+      "offer_acceptance_rate": 0.81,
+      "verified_email": true,
+      "verified_phone": true,
+      "linkedin_connected": true
+    }
+  },
+  {
+    "candidate_id": "CAND_0006567",
+    "profile": {
+      "anonymized_name": "Aditya Subramanian",
+      "headline": "Senior Engineer | Information Retrieval at scale",
+      "summary": "Senior engineer who has spent the last several years building systems that connect users with relevant information at scale. Comfortable across the full stack from infrastructure to algorithms to product experience, though most of my time has been in the middle layer \u2014 the ranking and retrieval systems that decide what to show. Strong preference for shipping real systems over research-only work; I'd rather have a working v1 in 6 weeks than a perfect v2 in 6 months. I've made the standard mistakes \u2014 over-engineering early, optimizing offline metrics that didn't move online numbers, building beautiful infrastructure for features that users didn't actually want \u2014 so I notice them faster now. Looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end at a product company.",
+      "location": "Noida, Uttar Pradesh",
+      "country": "India",
+      "years_of_experience": 7.9,
+      "current_title": "Senior AI Engineer",
+      "current_company": "Meta",
+      "current_company_size": "10001+",
+      "current_industry": "Internet"
+    },
+    "career_history": [
+      {
+        "company": "Meta",
+        "title": "Senior AI Engineer",
+        "start_date": "2024-04-07",
+        "end_date": null,
+        "duration_months": 26,
+        "is_current": true,
+        "industry": "Internet",
+        "company_size": "10001+",
+        "description": "Built systems that understand what users are looking for and connect them to the most relevant matches across a large dataset. Worked at the intersection of infrastructure, algorithms, and product judgment \u2014 none of the three were optional. Recent project was a complete overhaul of the matching layer; took it from a hand-tuned heuristic system to one with explicit modeling and evaluation. The team grew from just me to 6 engineers over the course of that work."
+      },
+      {
+        "company": "Razorpay",
+        "title": "Senior Applied Scientist",
+        "start_date": "2020-03-29",
+        "end_date": "2024-04-07",
+        "duration_months": 49,
+        "is_current": false,
+        "industry": "Fintech",
+        "company_size": "1001-5000",
+        "description": "Owned the search and discovery experience end-to-end at a consumer product, from how content is represented internally through to how the most relevant results appear for each user's intent. The work spanned data infrastructure, ranking algorithms, evaluation methodology, and direct collaboration with product/PM on what 'relevance' actually means for our users. Spent a fair amount of time on the eval side \u2014 building offline metrics that actually correlated with online engagement, which turned out to be the hardest part."
+      },
+      {
+        "company": "Glance",
+        "title": "Senior ML Engineer \u2014 Search & Ranking",
+        "start_date": "2018-08-23",
+        "end_date": "2020-03-15",
+        "duration_months": 19,
+        "is_current": false,
+        "industry": "AI/ML",
+        "company_size": "501-1000",
+        "description": "Shipped the personalization infrastructure: the system that learns from user behavior and improves relevance over time. Designed the offline experimentation environment, the online A/B testing framework, and the feature-engineering pipeline that connected them. Most of my time went into the boring-but-critical operational layer \u2014 feature monitoring, drift detection, retraining cadence \u2014 rather than the modeling itself. Worked closely with the product and growth teams."
+      }
+    ],
+    "education": [
+      {
+        "institution": "IIT Bombay",
+        "degree": "B.Sc",
+        "field_of_study": "Machine Learning",
+        "start_year": 2016,
+        "end_year": 2020,
+        "grade": "7.89 CGPA",
+        "tier": "tier_1"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Speech Recognition",
+        "proficiency": "intermediate",
+        "endorsements": 14,
+        "duration_months": 23
+      },
+      {
+        "name": "scikit-learn",
+        "proficiency": "expert",
+        "endorsements": 46,
+        "duration_months": 64
+      },
+      {
+        "name": "Search Backend",
+        "proficiency": "advanced",
+        "endorsements": 47,
+        "duration_months": 31
+      },
+      {
+        "name": "Model Adaptation",
+        "proficiency": "expert",
+        "endorsements": 44,
+        "duration_months": 71
+      },
+      {
+        "name": "Vector Representations",
+        "proficiency": "advanced",
+        "endorsements": 9,
+        "duration_months": 46
+      },
+      {
+        "name": "BM25",
+        "proficiency": "expert",
+        "endorsements": 5,
+        "duration_months": 80
+      },
+      {
+        "name": "Workflow Orchestration",
+        "proficiency": "expert",
+        "endorsements": 39,
+        "duration_months": 51
+      },
+      {
+        "name": "GANs",
+        "proficiency": "intermediate",
+        "endorsements": 4,
+        "duration_months": 36
+      },
+      {
+        "name": "NLP",
+        "proficiency": "advanced",
+        "endorsements": 54,
+        "duration_months": 22
+      },
+      {
+        "name": "Kubernetes",
+        "proficiency": "beginner",
+        "endorsements": 12,
+        "duration_months": 14
+      },
+      {
+        "name": "Python",
+        "proficiency": "expert",
+        "endorsements": 14,
+        "duration_months": 68
+      },
+      {
+        "name": "Ranking Systems",
+        "proficiency": "advanced",
+        "endorsements": 52,
+        "duration_months": 60
+      },
+      {
+        "name": "Text Encoders",
+        "proficiency": "advanced",
+        "endorsements": 8,
+        "duration_months": 28
+      },
+      {
+        "name": "Data Science",
+        "proficiency": "intermediate",
+        "endorsements": 8,
+        "duration_months": 10
+      },
+      {
+        "name": "Feature Engineering",
+        "proficiency": "advanced",
+        "endorsements": 37,
+        "duration_months": 55
+      },
+      {
+        "name": "Search & Discovery",
+        "proficiency": "advanced",
+        "endorsements": 17,
+        "duration_months": 42
+      },
+      {
+        "name": "Prompt Engineering",
+        "proficiency": "expert",
+        "endorsements": 12,
+        "duration_months": 94
+      },
+      {
+        "name": "Haystack",
+        "proficiency": "expert",
+        "endorsements": 37,
+        "duration_months": 47
+      },
+      {
+        "name": "Content Matching",
+        "proficiency": "expert",
+        "endorsements": 54,
+        "duration_months": 85
+      },
+      {
+        "name": "Recommendation Systems",
+        "proficiency": "advanced",
+        "endorsements": 35,
+        "duration_months": 26
+      }
+    ],
+    "certifications": [
+      {
+        "name": "AWS Certified Machine Learning Specialty",
+        "issuer": "AWS",
+        "year": 2019
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "professional"
+      },
+      {
+        "language": "Hindi",
+        "proficiency": "conversational"
+      }
+    ],
+    "redrob_signals": {
+      "profile_completeness_score": 58.6,
+      "signup_date": "2025-08-02",
+      "last_active_date": "2026-05-03",
+      "open_to_work_flag": true,
+      "profile_views_received_30d": 167,
+      "applications_submitted_30d": 0,
+      "recruiter_response_rate": 0.79,
+      "avg_response_time_hours": 25.5,
+      "skill_assessment_scores": {
+        "scikit-learn": 89.9,
+        "Weaviate": 63.0,
+        "Fine-tuning LLMs": 88.7,
+        "Embeddings": 64.4
+      },
+      "connection_count": 262,
+      "endorsements_received": 194,
+      "notice_period_days": 60,
+      "expected_salary_range_inr_lpa": {
+        "min": 44.2,
+        "max": 53.9
+      },
+      "preferred_work_mode": "onsite",
+      "willing_to_relocate": true,
+      "github_activity_score": 35.2,
+      "search_appearance_30d": 1049,
+      "saved_by_recruiters_30d": 76,
+      "interview_completion_rate": 0.93,
+      "offer_acceptance_rate": 0.79,
+      "verified_email": true,
+      "verified_phone": true,
+      "linkedin_connected": true
+    }
+  },
+  {
+    "candidate_id": "CAND_0030468",
+    "profile": {
+      "anonymized_name": "Pooja Bose",
+      "headline": "Senior Engineer | Search & Discovery Infrastructure",
+      "summary": "Senior engineer who has spent the last several years building systems that connect users with relevant information at scale. Comfortable across the full stack from infrastructure to algorithms to product experience, though most of my time has been in the middle layer \u2014 the ranking and retrieval systems that decide what to show. Strong preference for shipping real systems over research-only work; I'd rather have a working v1 in 6 weeks than a perfect v2 in 6 months. I've made the standard mistakes \u2014 over-engineering early, optimizing offline metrics that didn't move online numbers, building beautiful infrastructure for features that users didn't actually want \u2014 so I notice them faster now. Looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end at a product company.",
+      "location": "Indore, Madhya Pradesh",
+      "country": "India",
+      "years_of_experience": 5.4,
+      "current_title": "Senior Applied Scientist",
+      "current_company": "Swiggy",
+      "current_company_size": "5001-10000",
+      "current_industry": "Food Delivery"
+    },
+    "career_history": [
+      {
+        "company": "Swiggy",
+        "title": "Senior Applied Scientist",
+        "start_date": "2025-04-02",
+        "end_date": null,
+        "duration_months": 14,
+        "is_current": true,
+        "industry": "Food Delivery",
+        "company_size": "5001-10000",
+        "description": "Led the engineering team building infrastructure to surface relevant content to users at scale. The system processed billions of documents and served millions of queries with low latency. Most of the technical effort went into the boring-but-essential parts: index refresh, query understanding, ranking calibration, and the dashboards that made the system's behavior legible to product and business teams. I had a small team of 4 across this work."
+      },
+      {
+        "company": "CRED",
+        "title": "Senior Applied Scientist",
+        "start_date": "2023-09-26",
+        "end_date": "2025-03-19",
+        "duration_months": 18,
+        "is_current": false,
+        "industry": "Fintech",
+        "company_size": "1001-5000",
+        "description": "Shipped the personalization infrastructure: the system that learns from user behavior and improves relevance over time. Designed the offline experimentation environment, the online A/B testing framework, and the feature-engineering pipeline that connected them. Most of my time went into the boring-but-critical operational layer \u2014 feature monitoring, drift detection, retraining cadence \u2014 rather than the modeling itself. Worked closely with the product and growth teams."
+      },
+      {
+        "company": "Wysa",
+        "title": "Senior Machine Learning Engineer",
+        "start_date": "2021-02-08",
+        "end_date": "2023-09-26",
+        "duration_months": 32,
+        "is_current": false,
+        "industry": "HealthTech AI",
+        "company_size": "51-200",
+        "description": "Shipped the personalization infrastructure: the system that learns from user behavior and improves relevance over time. Designed the offline experimentation environment, the online A/B testing framework, and the feature-engineering pipeline that connected them. Most of my time went into the boring-but-critical operational layer \u2014 feature monitoring, drift detection, retraining cadence \u2014 rather than the modeling itself. Worked closely with the product and growth teams."
+      }
+    ],
+    "education": [
+      {
+        "institution": "IIT Delhi",
+        "degree": "M.Tech",
+        "field_of_study": "Machine Learning",
+        "start_year": 2013,
+        "end_year": 2016,
+        "grade": "73%",
+        "tier": "tier_1"
+      },
+      {
+        "institution": "IIT Delhi",
+        "degree": "M.Tech",
+        "field_of_study": "Machine Learning",
+        "start_year": 2005,
+        "end_year": 2008,
+        "grade": "6.53 CGPA",
+        "tier": "tier_1"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Information Retrieval Systems",
+        "proficiency": "advanced",
+        "endorsements": 39,
+        "duration_months": 24
+      },
+      {
+        "name": "Content Matching",
+        "proficiency": "expert",
+        "endorsements": 46,
+        "duration_months": 82
+      },
+      {
+        "name": "Text Encoders",
+        "proficiency": "expert",
+        "endorsements": 53,
+        "duration_months": 77
+      },
+      {
+        "name": "TensorFlow",
+        "proficiency": "advanced",
+        "endorsements": 21,
+        "duration_months": 38
+      },
+      {
+        "name": "Search & Discovery",
+        "proficiency": "expert",
+        "endorsements": 57,
+        "duration_months": 45
+      },
+      {
+        "name": "CNN",
+        "proficiency": "intermediate",
+        "endorsements": 3,
+        "duration_months": 9
+      },
+      {
+        "name": "Model Adaptation",
+        "proficiency": "expert",
+        "endorsements": 45,
+        "duration_months": 43
+      },
+      {
+        "name": "Machine Learning",
+        "proficiency": "expert",
+        "endorsements": 38,
+        "duration_months": 67
+      },
+      {
+        "name": "Ranking Systems",
+        "proficiency": "expert",
+        "endorsements": 42,
+        "duration_months": 72
+      },
+      {
+        "name": "Diffusion Models",
+        "proficiency": "intermediate",
+        "endorsements": 4,
+        "duration_months": 23
+      },
+      {
+        "name": "OpenSearch",
+        "proficiency": "expert",
+        "endorsements": 43,
+        "duration_months": 95
+      },
+      {
+        "name": "Computer Vision",
+        "proficiency": "advanced",
+        "endorsements": 32,
+        "duration_months": 48
+      },
+      {
+        "name": "Milvus",
+        "proficiency": "expert",
+        "endorsements": 15,
+        "duration_months": 85
+      },
+      {
+        "name": "Recommendation Systems",
+        "proficiency": "expert",
+        "endorsements": 9,
+        "duration_months": 79
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Google Cloud Professional ML Engineer",
+        "issuer": "Google Cloud",
+        "year": 2019
+      },
+      {
+        "name": "Deep Learning Specialization",
+        "issuer": "Coursera/DeepLearning.AI",
+        "year": 2018
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "professional"
+      },
+      {
+        "language": "Hindi",
+        "proficiency": "professional"
+      }
+    ],
+    "redrob_signals": {
+      "profile_completeness_score": 84.7,
+      "signup_date": "2025-12-03",
+      "last_active_date": "2026-05-03",
+      "open_to_work_flag": true,
+      "profile_views_received_30d": 135,
+      "applications_submitted_30d": 13,
+      "recruiter_response_rate": 0.78,
+      "avg_response_time_hours": 4.7,
+      "skill_assessment_scores": {
+        "RAG": 80.5,
+        "Semantic Search": 72.4,
+        "Sentence Transformers": 97.0
+      },
+      "connection_count": 1655,
+      "endorsements_received": 118,
+      "notice_period_days": 45,
+      "expected_salary_range_inr_lpa": {
+        "min": 46.5,
+        "max": 59.1
+      },
+      "preferred_work_mode": "remote",
+      "willing_to_relocate": true,
+      "github_activity_score": 45.0,
+      "search_appearance_30d": 148,
+      "saved_by_recruiters_30d": 17,
+      "interview_completion_rate": 0.82,
+      "offer_acceptance_rate": 0.56,
+      "verified_email": true,
+      "verified_phone": true,
+      "linkedin_connected": true
+    }
+  },
+  {
+    "candidate_id": "CAND_0037980",
+    "profile": {
+      "anonymized_name": "Reyansh Chowdary",
+      "headline": "Senior Engineer | Information Retrieval at scale",
+      "summary": "Senior engineer who has spent the last several years building systems that connect users with relevant information at scale. Comfortable across the full stack from infrastructure to algorithms to product experience, though most of my time has been in the middle layer \u2014 the ranking and retrieval systems that decide what to show. Strong preference for shipping real systems over research-only work; I'd rather have a working v1 in 6 weeks than a perfect v2 in 6 months. I've made the standard mistakes \u2014 over-engineering early, optimizing offline metrics that didn't move online numbers, building beautiful infrastructure for features that users didn't actually want \u2014 so I notice them faster now. Looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end at a product company.",
+      "location": "Kolkata, West Bengal",
+      "country": "India",
+      "years_of_experience": 9.0,
+      "current_title": "Senior Applied Scientist",
+      "current_company": "Niramai",
+      "current_company_size": "51-200",
+      "current_industry": "HealthTech AI"
+    },
+    "career_history": [
+      {
+        "company": "Niramai",
+        "title": "Senior Applied Scientist",
+        "start_date": "2023-04-13",
+        "end_date": null,
+        "duration_months": 38,
+        "is_current": true,
+        "industry": "HealthTech AI",
+        "company_size": "51-200",
+        "description": "Designed the ranking layer for the company's flagship product: how do we surface the right thing at the right time, across millions of items, for millions of users. The hard problem was rarely the modeling \u2014 it was the data pipeline that fed the models, the evaluation framework that told us whether they worked, and the operational discipline of keeping all of it healthy in production. I owned all three across roughly 14 months."
+      },
+      {
+        "company": "Verloop.io",
+        "title": "Senior ML Engineer \u2014 Search & Ranking",
+        "start_date": "2020-02-28",
+        "end_date": "2023-04-13",
+        "duration_months": 38,
+        "is_current": false,
+        "industry": "Conversational AI",
+        "company_size": "51-200",
+        "description": "Designed the ranking layer for the company's flagship product: how do we surface the right thing at the right time, across millions of items, for millions of users. The hard problem was rarely the modeling \u2014 it was the data pipeline that fed the models, the evaluation framework that told us whether they worked, and the operational discipline of keeping all of it healthy in production. I owned all three across roughly 14 months."
+      },
+      {
+        "company": "Salesforce",
+        "title": "Senior ML Engineer \u2014 Search & Ranking",
+        "start_date": "2017-08-12",
+        "end_date": "2020-02-28",
+        "duration_months": 31,
+        "is_current": false,
+        "industry": "Software",
+        "company_size": "10001+",
+        "description": "Shipped the personalization infrastructure: the system that learns from user behavior and improves relevance over time. Designed the offline experimentation environment, the online A/B testing framework, and the feature-engineering pipeline that connected them. Most of my time went into the boring-but-critical operational layer \u2014 feature monitoring, drift detection, retraining cadence \u2014 rather than the modeling itself. Worked closely with the product and growth teams."
+      }
+    ],
+    "education": [
+      {
+        "institution": "BITS Pilani",
+        "degree": "B.E.",
+        "field_of_study": "Machine Learning",
+        "start_year": 2012,
+        "end_year": 2017,
+        "grade": "8.64 CGPA",
+        "tier": "tier_1"
+      }
+    ],
+    "skills": [
+      {
+        "name": "LoRA",
+        "proficiency": "expert",
+        "endorsements": 59,
+        "duration_months": 75
+      },
+      {
+        "name": "Search Infrastructure",
+        "proficiency": "expert",
+        "endorsements": 40,
+        "duration_months": 48
+      },
+      {
+        "name": "PyTorch",
+        "proficiency": "expert",
+        "endorsements": 25,
+        "duration_months": 63
+      },
+      {
+        "name": "NLP",
+        "proficiency": "expert",
+        "endorsements": 44,
+        "duration_months": 54
+      },
+      {
+        "name": "Indexing Algorithms",
+        "proficiency": "expert",
+        "endorsements": 27,
+        "duration_months": 58
+      },
+      {
+        "name": "BM25",
+        "proficiency": "expert",
+        "endorsements": 14,
+        "duration_months": 92
+      },
+      {
+        "name": "TTS",
+        "proficiency": "advanced",
+        "endorsements": 58,
+        "duration_months": 48
+      },
+      {
+        "name": "Text Encoders",
+        "proficiency": "expert",
+        "endorsements": 60,
+        "duration_months": 36
+      },
+      {
+        "name": "Document Processing",
+        "proficiency": "expert",
+        "endorsements": 56,
+        "duration_months": 61
+      },
+      {
+        "name": "OpenCV",
+        "proficiency": "advanced",
+        "endorsements": 16,
+        "duration_months": 48
+      },
+      {
+        "name": "QLoRA",
+        "proficiency": "advanced",
+        "endorsements": 16,
+        "duration_months": 28
+      },
+      {
+        "name": "pgvector",
+        "proficiency": "expert",
+        "endorsements": 9,
+        "duration_months": 58
+      },
+      {
+        "name": "Haystack",
+        "proficiency": "expert",
+        "endorsements": 17,
+        "duration_months": 47
+      },
+      {
+        "name": "Model Adaptation",
+        "proficiency": "advanced",
+        "endorsements": 58,
+        "duration_months": 51
+      },
+      {
+        "name": "Weights & Biases",
+        "proficiency": "intermediate",
+        "endorsements": 2,
+        "duration_months": 36
+      },
+      {
+        "name": "BentoML",
+        "proficiency": "advanced",
+        "endorsements": 25,
+        "duration_months": 39
+      },
+      {
+        "name": "scikit-learn",
+        "proficiency": "expert",
+        "endorsements": 43,
+        "duration_months": 41
+      },
+      {
+        "name": "Prompt Engineering",
+        "proficiency": "advanced",
+        "endorsements": 18,
+        "duration_months": 24
+      },
+      {
+        "name": "Feature Engineering",
+        "proficiency": "intermediate",
+        "endorsements": 5,
+        "duration_months": 25
+      },
+      {
+        "name": "Information Retrieval Systems",
+        "proficiency": "expert",
+        "endorsements": 53,
+        "duration_months": 47
+      },
+      {
+        "name": "Recommendation Systems",
+        "proficiency": "advanced",
+        "endorsements": 15,
+        "duration_months": 30
+      }
+    ],
+    "certifications": [
+      {
+        "name": "NLP Specialization",
+        "issuer": "Coursera/DeepLearning.AI",
+        "year": 2022
+      },
+      {
+        "name": "Deep Learning Specialization",
+        "issuer": "Coursera/DeepLearning.AI",
+        "year": 2025
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "professional"
+      },
+      {
+        "language": "Hindi",
+        "proficiency": "professional"
+      }
+    ],
+    "redrob_signals": {
+      "profile_completeness_score": 69.3,
+      "signup_date": "2024-12-31",
+      "last_active_date": "2026-03-28",
+      "open_to_work_flag": true,
+      "profile_views_received_30d": 249,
+      "applications_submitted_30d": 7,
+      "recruiter_response_rate": 0.63,
+      "avg_response_time_hours": 42.4,
+      "skill_assessment_scores": {
+        "LoRA": 74.0,
+        "Vector Search": 72.2
+      },
+      "connection_count": 1659,
+      "endorsements_received": 87,
+      "notice_period_days": 0,
+      "expected_salary_range_inr_lpa": {
+        "min": 47.4,
+        "max": 50.5
+      },
+      "preferred_work_mode": "hybrid",
+      "willing_to_relocate": true,
+      "github_activity_score": 30.8,
+      "search_appearance_30d": 748,
+      "saved_by_recruiters_30d": 65,
+      "interview_completion_rate": 0.89,
+      "offer_acceptance_rate": 0.83,
+      "verified_email": true,
+      "verified_phone": false,
+      "linkedin_connected": true
+    }
+  },
+  {
+    "candidate_id": "CAND_0061257",
+    "profile": {
+      "anonymized_name": "Advaith Pillai",
+      "headline": "Senior Engineer | 8.0+ yrs in production systems",
+      "summary": "Senior engineer who has spent the last several years building systems that connect users with relevant information at scale. Comfortable across the full stack from infrastructure to algorithms to product experience, though most of my time has been in the middle layer \u2014 the ranking and retrieval systems that decide what to show. Strong preference for shipping real systems over research-only work; I'd rather have a working v1 in 6 weeks than a perfect v2 in 6 months. I've made the standard mistakes \u2014 over-engineering early, optimizing offline metrics that didn't move online numbers, building beautiful infrastructure for features that users didn't actually want \u2014 so I notice them faster now. Looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end at a product company.",
+      "location": "Noida, Uttar Pradesh",
+      "country": "India",
+      "years_of_experience": 8.0,
+      "current_title": "Staff Machine Learning Engineer",
+      "current_company": "LinkedIn",
+      "current_company_size": "10001+",
+      "current_industry": "Internet"
+    },
+    "career_history": [
+      {
+        "company": "LinkedIn",
+        "title": "Staff Machine Learning Engineer",
+        "start_date": "2022-11-14",
+        "end_date": null,
+        "duration_months": 43,
+        "is_current": true,
+        "industry": "Internet",
+        "company_size": "10001+",
+        "description": "Designed the ranking layer for the company's flagship product: how do we surface the right thing at the right time, across millions of items, for millions of users. The hard problem was rarely the modeling \u2014 it was the data pipeline that fed the models, the evaluation framework that told us whether they worked, and the operational discipline of keeping all of it healthy in production. I owned all three across roughly 14 months."
+      },
+      {
+        "company": "Yellow.ai",
+        "title": "Senior Applied Scientist",
+        "start_date": "2018-08-07",
+        "end_date": "2022-11-14",
+        "duration_months": 52,
+        "is_current": false,
+        "industry": "AI/ML",
+        "company_size": "201-500",
+        "description": "Owned the search and discovery experience end-to-end at a consumer product, from how content is represented internally through to how the most relevant results appear for each user's intent. The work spanned data infrastructure, ranking algorithms, evaluation methodology, and direct collaboration with product/PM on what 'relevance' actually means for our users. Spent a fair amount of time on the eval side \u2014 building offline metrics that actually correlated with online engagement, which turned out to be the hardest part."
+      }
+    ],
+    "education": [
+      {
+        "institution": "VJTI Mumbai",
+        "degree": "M.S.",
+        "field_of_study": "Computer Science",
+        "start_year": 2005,
+        "end_year": 2010,
+        "grade": "9.27 CGPA",
+        "tier": "tier_2"
+      },
+      {
+        "institution": "IIT Roorkee",
+        "degree": "M.E.",
+        "field_of_study": "Artificial Intelligence",
+        "start_year": 2003,
+        "end_year": 2008,
+        "grade": "8.06 CGPA",
+        "tier": "tier_1"
+      }
+    ],
+    "skills": [
+      {
+        "name": "PEFT",
+        "proficiency": "advanced",
+        "endorsements": 5,
+        "duration_months": 33
+      },
+      {
+        "name": "Haystack",
+        "proficiency": "advanced",
+        "endorsements": 36,
+        "duration_months": 43
+      },
+      {
+        "name": "Time Series",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 28
+      },
+      {
+        "name": "Machine Learning",
+        "proficiency": "expert",
+        "endorsements": 23,
+        "duration_months": 61
+      },
+      {
+        "name": "Information Retrieval Systems",
+        "proficiency": "advanced",
+        "endorsements": 32,
+        "duration_months": 58
+      },
+      {
+        "name": "Search Infrastructure",
+        "proficiency": "expert",
+        "endorsements": 37,
+        "duration_months": 83
+      },
+      {
+        "name": "Image Classification",
+        "proficiency": "advanced",
+        "endorsements": 37,
+        "duration_months": 22
+      },
+      {
+        "name": "TTS",
+        "proficiency": "intermediate",
+        "endorsements": 3,
+        "duration_months": 24
+      },
+      {
+        "name": "Feature Engineering",
+        "proficiency": "advanced",
+        "endorsements": 9,
+        "duration_months": 27
+      },
+      {
+        "name": "ETL",
+        "proficiency": "intermediate",
+        "endorsements": 8,
+        "duration_months": 14
+      },
+      {
+        "name": "Model Adaptation",
+        "proficiency": "expert",
+        "endorsements": 54,
+        "duration_months": 79
+      },
+      {
+        "name": "Indexing Algorithms",
+        "proficiency": "expert",
+        "endorsements": 56,
+        "duration_months": 39
+      },
+      {
+        "name": "Workflow Orchestration",
+        "proficiency": "expert",
+        "endorsements": 59,
+        "duration_months": 62
+      },
+      {
+        "name": "Search Backend",
+        "proficiency": "advanced",
+        "endorsements": 10,
+        "duration_months": 23
+      },
+      {
+        "name": "Python",
+        "proficiency": "expert",
+        "endorsements": 38,
+        "duration_months": 72
+      },
+      {
+        "name": "Vector Representations",
+        "proficiency": "expert",
+        "endorsements": 55,
+        "duration_months": 41
+      }
+    ],
+    "certifications": [],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "native"
+      },
+      {
+        "language": "Hindi",
+        "proficiency": "native"
+      }
+    ],
+    "redrob_signals": {
+      "profile_completeness_score": 93.3,
+      "signup_date": "2025-11-06",
+      "last_active_date": "2026-04-16",
+      "open_to_work_flag": true,
+      "profile_views_received_30d": 236,
+      "applications_submitted_30d": 24,
+      "recruiter_response_rate": 0.87,
+      "avg_response_time_hours": 49.7,
+      "skill_assessment_scores": {
+        "PEFT": 69.5,
+        "Haystack": 69.6
+      },
+      "connection_count": 1513,
+      "endorsements_received": 56,
+      "notice_period_days": 30,
+      "expected_salary_range_inr_lpa": {
+        "min": 49.7,
+        "max": 52.3
+      },
+      "preferred_work_mode": "hybrid",
+      "willing_to_relocate": false,
+      "github_activity_score": 45.3,
+      "search_appearance_30d": 80,
+      "saved_by_recruiters_30d": 80,
+      "interview_completion_rate": 0.8,
+      "offer_acceptance_rate": -1,
+      "verified_email": true,
+      "verified_phone": true,
+      "linkedin_connected": true
+    }
+  },
+  {
+    "candidate_id": "CAND_0068351",
+    "profile": {
+      "anonymized_name": "Aadhya Iyer",
+      "headline": "Senior Engineer | Search & Discovery Infrastructure",
+      "summary": "Senior engineer who has spent the last several years building systems that connect users with relevant information at scale. Comfortable across the full stack from infrastructure to algorithms to product experience, though most of my time has been in the middle layer \u2014 the ranking and retrieval systems that decide what to show. Strong preference for shipping real systems over research-only work; I'd rather have a working v1 in 6 weeks than a perfect v2 in 6 months. I've made the standard mistakes \u2014 over-engineering early, optimizing offline metrics that didn't move online numbers, building beautiful infrastructure for features that users didn't actually want \u2014 so I notice them faster now. Looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end at a product company.",
+      "location": "Delhi, Delhi",
+      "country": "India",
+      "years_of_experience": 6.4,
+      "current_title": "Lead AI Engineer",
+      "current_company": "Sarvam AI",
+      "current_company_size": "51-200",
+      "current_industry": "AI/ML"
+    },
+    "career_history": [
+      {
+        "company": "Sarvam AI",
+        "title": "Lead AI Engineer",
+        "start_date": "2024-05-07",
+        "end_date": null,
+        "duration_months": 25,
+        "is_current": true,
+        "industry": "AI/ML",
+        "company_size": "51-200",
+        "description": "Owned the search and discovery experience end-to-end at a consumer product, from how content is represented internally through to how the most relevant results appear for each user's intent. The work spanned data infrastructure, ranking algorithms, evaluation methodology, and direct collaboration with product/PM on what 'relevance' actually means for our users. Spent a fair amount of time on the eval side \u2014 building offline metrics that actually correlated with online engagement, which turned out to be the hardest part."
+      },
+      {
+        "company": "Verloop.io",
+        "title": "Staff Machine Learning Engineer",
+        "start_date": "2020-08-26",
+        "end_date": "2024-05-07",
+        "duration_months": 45,
+        "is_current": false,
+        "industry": "Conversational AI",
+        "company_size": "51-200",
+        "description": "Built systems that understand what users are looking for and connect them to the most relevant matches across a large dataset. Worked at the intersection of infrastructure, algorithms, and product judgment \u2014 none of the three were optional. Recent project was a complete overhaul of the matching layer; took it from a hand-tuned heuristic system to one with explicit modeling and evaluation. The team grew from just me to 6 engineers over the course of that work."
+      },
+      {
+        "company": "Microsoft",
+        "title": "Senior Machine Learning Engineer",
+        "start_date": "2020-02-28",
+        "end_date": "2020-08-26",
+        "duration_months": 6,
+        "is_current": false,
+        "industry": "Software",
+        "company_size": "10001+",
+        "description": "Designed the ranking layer for the company's flagship product: how do we surface the right thing at the right time, across millions of items, for millions of users. The hard problem was rarely the modeling \u2014 it was the data pipeline that fed the models, the evaluation framework that told us whether they worked, and the operational discipline of keeping all of it healthy in production. I owned all three across roughly 14 months."
+      }
+    ],
+    "education": [
+      {
+        "institution": "IIIT Bangalore",
+        "degree": "M.E.",
+        "field_of_study": "Computer Science",
+        "start_year": 2012,
+        "end_year": 2016,
+        "grade": "9.12 CGPA",
+        "tier": "tier_1"
+      },
+      {
+        "institution": "Carnegie Mellon University",
+        "degree": "B.Tech",
+        "field_of_study": "Computer Engineering",
+        "start_year": 2011,
+        "end_year": 2016,
+        "grade": "85%",
+        "tier": "tier_1"
+      }
+    ],
+    "skills": [
+      {
+        "name": "pgvector",
+        "proficiency": "expert",
+        "endorsements": 18,
+        "duration_months": 77
+      },
+      {
+        "name": "Deep Learning",
+        "proficiency": "expert",
+        "endorsements": 50,
+        "duration_months": 44
+      },
+      {
+        "name": "Qdrant",
+        "proficiency": "expert",
+        "endorsements": 47,
+        "duration_months": 78
+      },
+      {
+        "name": "Elasticsearch",
+        "proficiency": "expert",
+        "endorsements": 39,
+        "duration_months": 44
+      },
+      {
+        "name": "Feature Engineering",
+        "proficiency": "advanced",
+        "endorsements": 25,
+        "duration_months": 43
+      },
+      {
+        "name": "Text Encoders",
+        "proficiency": "expert",
+        "endorsements": 9,
+        "duration_months": 51
+      },
+      {
+        "name": "PEFT",
+        "proficiency": "expert",
+        "endorsements": 58,
+        "duration_months": 94
+      },
+      {
+        "name": "Spring Boot",
+        "proficiency": "beginner",
+        "endorsements": 14,
+        "duration_months": 13
+      },
+      {
+        "name": "Python",
+        "proficiency": "expert",
+        "endorsements": 11,
+        "duration_months": 67
+      },
+      {
+        "name": "Redis",
+        "proficiency": "intermediate",
+        "endorsements": 1,
+        "duration_months": 30
+      },
+      {
+        "name": "Haystack",
+        "proficiency": "expert",
+        "endorsements": 18,
+        "duration_months": 60
+      },
+      {
+        "name": "Machine Learning",
+        "proficiency": "expert",
+        "endorsements": 12,
+        "duration_months": 68
+      },
+      {
+        "name": "Open-source ML libraries",
+        "proficiency": "expert",
+        "endorsements": 0,
+        "duration_months": 81
+      },
+      {
+        "name": "Ranking Systems",
+        "proficiency": "advanced",
+        "endorsements": 35,
+        "duration_months": 23
+      },
+      {
+        "name": "LoRA",
+        "proficiency": "expert",
+        "endorsements": 34,
+        "duration_months": 49
+      },
+      {
+        "name": "Information Retrieval Systems",
+        "proficiency": "advanced",
+        "endorsements": 33,
+        "duration_months": 39
+      },
+      {
+        "name": "Search Backend",
+        "proficiency": "advanced",
+        "endorsements": 10,
+        "duration_months": 40
+      },
+      {
+        "name": "GANs",
+        "proficiency": "intermediate",
+        "endorsements": 15,
+        "duration_months": 16
+      },
+      {
+        "name": "NLP",
+        "proficiency": "advanced",
+        "endorsements": 49,
+        "duration_months": 27
+      }
+    ],
+    "certifications": [],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "professional"
+      },
+      {
+        "language": "Hindi",
+        "proficiency": "native"
+      }
+    ],
+    "redrob_signals": {
+      "profile_completeness_score": 94.5,
+      "signup_date": "2026-04-10",
+      "last_active_date": "2026-04-11",
+      "open_to_work_flag": false,
+      "profile_views_received_30d": 179,
+      "applications_submitted_30d": 0,
+      "recruiter_response_rate": 0.86,
+      "avg_response_time_hours": 39.4,
+      "skill_assessment_scores": {},
+      "connection_count": 1255,
+      "endorsements_received": 100,
+      "notice_period_days": 0,
+      "expected_salary_range_inr_lpa": {
+        "min": 34.8,
+        "max": 57.1
+      },
+      "preferred_work_mode": "remote",
+      "willing_to_relocate": false,
+      "github_activity_score": -1,
+      "search_appearance_30d": 1347,
+      "saved_by_recruiters_30d": 66,
+      "interview_completion_rate": 0.95,
+      "offer_acceptance_rate": -1,
+      "verified_email": true,
+      "verified_phone": false,
+      "linkedin_connected": true
+    }
+  },
+  {
+    "candidate_id": "CAND_0080766",
+    "profile": {
+      "anonymized_name": "Kiara Mittal",
+      "headline": "Senior Engineer | Search & Discovery Infrastructure",
+      "summary": "Senior engineer who has spent the last several years building systems that connect users with relevant information at scale. Comfortable across the full stack from infrastructure to algorithms to product experience, though most of my time has been in the middle layer \u2014 the ranking and retrieval systems that decide what to show. Strong preference for shipping real systems over research-only work; I'd rather have a working v1 in 6 weeks than a perfect v2 in 6 months. I've made the standard mistakes \u2014 over-engineering early, optimizing offline metrics that didn't move online numbers, building beautiful infrastructure for features that users didn't actually want \u2014 so I notice them faster now. Looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end at a product company.",
+      "location": "Coimbatore, Tamil Nadu",
+      "country": "India",
+      "years_of_experience": 8.8,
+      "current_title": "Staff Machine Learning Engineer",
+      "current_company": "Salesforce",
+      "current_company_size": "10001+",
+      "current_industry": "Software"
+    },
+    "career_history": [
+      {
+        "company": "Salesforce",
+        "title": "Staff Machine Learning Engineer",
+        "start_date": "2023-04-13",
+        "end_date": null,
+        "duration_months": 38,
+        "is_current": true,
+        "industry": "Software",
+        "company_size": "10001+",
+        "description": "Shipped the personalization infrastructure: the system that learns from user behavior and improves relevance over time. Designed the offline experimentation environment, the online A/B testing framework, and the feature-engineering pipeline that connected them. Most of my time went into the boring-but-critical operational layer \u2014 feature monitoring, drift detection, retraining cadence \u2014 rather than the modeling itself. Worked closely with the product and growth teams."
+      },
+      {
+        "company": "Aganitha",
+        "title": "Staff Machine Learning Engineer",
+        "start_date": "2022-04-18",
+        "end_date": "2023-04-13",
+        "duration_months": 12,
+        "is_current": false,
+        "industry": "AI/ML",
+        "company_size": "51-200",
+        "description": "Owned the search and discovery experience end-to-end at a consumer product, from how content is represented internally through to how the most relevant results appear for each user's intent. The work spanned data infrastructure, ranking algorithms, evaluation methodology, and direct collaboration with product/PM on what 'relevance' actually means for our users. Spent a fair amount of time on the eval side \u2014 building offline metrics that actually correlated with online engagement, which turned out to be the hardest part."
+      },
+      {
+        "company": "Swiggy",
+        "title": "Lead AI Engineer",
+        "start_date": "2018-09-06",
+        "end_date": "2022-03-19",
+        "duration_months": 43,
+        "is_current": false,
+        "industry": "Food Delivery",
+        "company_size": "5001-10000",
+        "description": "Designed the ranking layer for the company's flagship product: how do we surface the right thing at the right time, across millions of items, for millions of users. The hard problem was rarely the modeling \u2014 it was the data pipeline that fed the models, the evaluation framework that told us whether they worked, and the operational discipline of keeping all of it healthy in production. I owned all three across roughly 14 months."
+      },
+      {
+        "company": "Haptik",
+        "title": "Senior Machine Learning Engineer",
+        "start_date": "2017-08-28",
+        "end_date": "2018-08-23",
+        "duration_months": 12,
+        "is_current": false,
+        "industry": "Conversational AI",
+        "company_size": "201-500",
+        "description": "Owned the design and rollout of a large-scale semantic search system serving an internal corpus of 35M+ items. Migrated the existing BM25-only retrieval to a hybrid setup combining sparse and dense vectors (sentence-transformers, MPNet-base initially, later fine-tuned BGE-large for our domain). The new system reduced p95 retrieval latency by 60% while improving NDCG@10 by 18% on our held-out eval set. Spent substantial time on the boring-but-critical parts: incremental index refresh, embedding drift monitoring, online/offline metric correlation. Led a team of 4 engineers across the rollout."
+      }
+    ],
+    "education": [
+      {
+        "institution": "RV College of Engineering",
+        "degree": "M.Sc",
+        "field_of_study": "Computer Engineering",
+        "start_year": 2010,
+        "end_year": 2015,
+        "grade": "6.99 CGPA",
+        "tier": "tier_2"
+      },
+      {
+        "institution": "NIT Surathkal",
+        "degree": "M.E.",
+        "field_of_study": "Computer Science",
+        "start_year": 2018,
+        "end_year": 2021,
+        "grade": "71%",
+        "tier": "tier_1"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Search Backend",
+        "proficiency": "expert",
+        "endorsements": 23,
+        "duration_months": 55
+      },
+      {
+        "name": "LoRA",
+        "proficiency": "expert",
+        "endorsements": 5,
+        "duration_months": 71
+      },
+      {
+        "name": "Vue.js",
+        "proficiency": "intermediate",
+        "endorsements": 7,
+        "duration_months": 25
+      },
+      {
+        "name": "Tally",
+        "proficiency": "intermediate",
+        "endorsements": 12,
+        "duration_months": 18
+      },
+      {
+        "name": "Search & Discovery",
+        "proficiency": "expert",
+        "endorsements": 25,
+        "duration_months": 74
+      },
+      {
+        "name": "MLOps",
+        "proficiency": "advanced",
+        "endorsements": 14,
+        "duration_months": 55
+      },
+      {
+        "name": "Search Infrastructure",
+        "proficiency": "expert",
+        "endorsements": 52,
+        "duration_months": 49
+      },
+      {
+        "name": "MLflow",
+        "proficiency": "advanced",
+        "endorsements": 44,
+        "duration_months": 40
+      },
+      {
+        "name": "Open-source ML libraries",
+        "proficiency": "expert",
+        "endorsements": 6,
+        "duration_months": 59
+      },
+      {
+        "name": "Information Retrieval Systems",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 28
+      },
+      {
+        "name": "Elasticsearch",
+        "proficiency": "advanced",
+        "endorsements": 38,
+        "duration_months": 40
+      },
+      {
+        "name": "Computer Vision",
+        "proficiency": "advanced",
+        "endorsements": 45,
+        "duration_months": 49
+      },
+      {
+        "name": "Deep Learning",
+        "proficiency": "expert",
+        "endorsements": 55,
+        "duration_months": 44
+      },
+      {
+        "name": "Natural Language Processing",
+        "proficiency": "advanced",
+        "endorsements": 19,
+        "duration_months": 43
+      },
+      {
+        "name": "QLoRA",
+        "proficiency": "expert",
+        "endorsements": 39,
+        "duration_months": 55
+      },
+      {
+        "name": "YOLO",
+        "proficiency": "intermediate",
+        "endorsements": 3,
+        "duration_months": 17
+      },
+      {
+        "name": "OpenSearch",
+        "proficiency": "advanced",
+        "endorsements": 59,
+        "duration_months": 35
+      },
+      {
+        "name": "Python",
+        "proficiency": "expert",
+        "endorsements": 42,
+        "duration_months": 53
+      },
+      {
+        "name": "Milvus",
+        "proficiency": "advanced",
+        "endorsements": 0,
+        "duration_months": 48
+      },
+      {
+        "name": "ASR",
+        "proficiency": "advanced",
+        "endorsements": 43,
+        "duration_months": 33
+      },
+      {
+        "name": "TensorFlow",
+        "proficiency": "expert",
+        "endorsements": 8,
+        "duration_months": 94
+      }
+    ],
+    "certifications": [],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "professional"
+      },
+      {
+        "language": "Hindi",
+        "proficiency": "native"
+      }
+    ],
+    "redrob_signals": {
+      "profile_completeness_score": 92.0,
+      "signup_date": "2024-11-01",
+      "last_active_date": "2026-04-09",
+      "open_to_work_flag": false,
+      "profile_views_received_30d": 374,
+      "applications_submitted_30d": 17,
+      "recruiter_response_rate": 0.66,
+      "avg_response_time_hours": 37.9,
+      "skill_assessment_scores": {
+        "Weaviate": 84.5
+      },
+      "connection_count": 767,
+      "endorsements_received": 182,
+      "notice_period_days": 0,
+      "expected_salary_range_inr_lpa": {
+        "min": 41.4,
+        "max": 52.7
+      },
+      "preferred_work_mode": "flexible",
+      "willing_to_relocate": true,
+      "github_activity_score": 32.9,
+      "search_appearance_30d": 1105,
+      "saved_by_recruiters_30d": 27,
+      "interview_completion_rate": 0.88,
+      "offer_acceptance_rate": 0.63,
+      "verified_email": true,
+      "verified_phone": true,
+      "linkedin_connected": true
+    }
+  },
+  {
+    "candidate_id": "CAND_0093193",
+    "profile": {
+      "anonymized_name": "Aarohi Bose",
+      "headline": "Senior Engineer | 7.9+ yrs in production systems",
+      "summary": "Senior engineer who has spent the last several years building systems that connect users with relevant information at scale. Comfortable across the full stack from infrastructure to algorithms to product experience, though most of my time has been in the middle layer \u2014 the ranking and retrieval systems that decide what to show. Strong preference for shipping real systems over research-only work; I'd rather have a working v1 in 6 weeks than a perfect v2 in 6 months. I've made the standard mistakes \u2014 over-engineering early, optimizing offline metrics that didn't move online numbers, building beautiful infrastructure for features that users didn't actually want \u2014 so I notice them faster now. Looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end at a product company.",
+      "location": "Bangalore, Karnataka",
+      "country": "India",
+      "years_of_experience": 7.9,
+      "current_title": "Senior Machine Learning Engineer",
+      "current_company": "Niramai",
+      "current_company_size": "51-200",
+      "current_industry": "HealthTech AI"
+    },
+    "career_history": [
+      {
+        "company": "Niramai",
+        "title": "Senior Machine Learning Engineer",
+        "start_date": "2022-10-15",
+        "end_date": null,
+        "duration_months": 44,
+        "is_current": true,
+        "industry": "HealthTech AI",
+        "company_size": "51-200",
+        "description": "Built systems that understand what users are looking for and connect them to the most relevant matches across a large dataset. Worked at the intersection of infrastructure, algorithms, and product judgment \u2014 none of the three were optional. Recent project was a complete overhaul of the matching layer; took it from a hand-tuned heuristic system to one with explicit modeling and evaluation. The team grew from just me to 6 engineers over the course of that work."
+      },
+      {
+        "company": "Netflix",
+        "title": "Lead AI Engineer",
+        "start_date": "2018-08-23",
+        "end_date": "2022-10-01",
+        "duration_months": 50,
+        "is_current": false,
+        "industry": "Media",
+        "company_size": "10001+",
+        "description": "Built systems that understand what users are looking for and connect them to the most relevant matches across a large dataset. Worked at the intersection of infrastructure, algorithms, and product judgment \u2014 none of the three were optional. Recent project was a complete overhaul of the matching layer; took it from a hand-tuned heuristic system to one with explicit modeling and evaluation. The team grew from just me to 6 engineers over the course of that work."
+      }
+    ],
+    "education": [
+      {
+        "institution": "Jadavpur University",
+        "degree": "Ph.D",
+        "field_of_study": "Information Technology",
+        "start_year": 2007,
+        "end_year": 2010,
+        "grade": "8.76 CGPA",
+        "tier": "tier_2"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Ranking Systems",
+        "proficiency": "expert",
+        "endorsements": 3,
+        "duration_months": 77
+      },
+      {
+        "name": "Text Encoders",
+        "proficiency": "expert",
+        "endorsements": 25,
+        "duration_months": 92
+      },
+      {
+        "name": "Indexing Algorithms",
+        "proficiency": "expert",
+        "endorsements": 34,
+        "duration_months": 37
+      },
+      {
+        "name": "Forecasting",
+        "proficiency": "advanced",
+        "endorsements": 29,
+        "duration_months": 44
+      },
+      {
+        "name": "Vector Representations",
+        "proficiency": "expert",
+        "endorsements": 46,
+        "duration_months": 46
+      },
+      {
+        "name": "Qdrant",
+        "proficiency": "advanced",
+        "endorsements": 57,
+        "duration_months": 20
+      },
+      {
+        "name": "OpenSearch",
+        "proficiency": "expert",
+        "endorsements": 41,
+        "duration_months": 88
+      },
+      {
+        "name": "Open-source ML libraries",
+        "proficiency": "advanced",
+        "endorsements": 13,
+        "duration_months": 37
+      },
+      {
+        "name": "TensorFlow",
+        "proficiency": "expert",
+        "endorsements": 12,
+        "duration_months": 54
+      },
+      {
+        "name": "Content Matching",
+        "proficiency": "advanced",
+        "endorsements": 54,
+        "duration_months": 43
+      },
+      {
+        "name": "Information Retrieval Systems",
+        "proficiency": "expert",
+        "endorsements": 7,
+        "duration_months": 76
+      },
+      {
+        "name": "Haystack",
+        "proficiency": "expert",
+        "endorsements": 30,
+        "duration_months": 58
+      },
+      {
+        "name": "Statistical Modeling",
+        "proficiency": "intermediate",
+        "endorsements": 11,
+        "duration_months": 8
+      },
+      {
+        "name": "Machine Learning",
+        "proficiency": "advanced",
+        "endorsements": 14,
+        "duration_months": 52
+      },
+      {
+        "name": "Search & Discovery",
+        "proficiency": "expert",
+        "endorsements": 34,
+        "duration_months": 66
+      },
+      {
+        "name": "GANs",
+        "proficiency": "advanced",
+        "endorsements": 6,
+        "duration_months": 45
+      },
+      {
+        "name": "Search Backend",
+        "proficiency": "advanced",
+        "endorsements": 42,
+        "duration_months": 56
+      },
+      {
+        "name": "scikit-learn",
+        "proficiency": "expert",
+        "endorsements": 11,
+        "duration_months": 84
+      },
+      {
+        "name": "ASR",
+        "proficiency": "advanced",
+        "endorsements": 22,
+        "duration_months": 38
+      }
+    ],
+    "certifications": [],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "professional"
+      },
+      {
+        "language": "Hindi",
+        "proficiency": "conversational"
+      }
+    ],
+    "redrob_signals": {
+      "profile_completeness_score": 92.6,
+      "signup_date": "2024-07-11",
+      "last_active_date": "2026-04-18",
+      "open_to_work_flag": true,
+      "profile_views_received_30d": 16,
+      "applications_submitted_30d": 24,
+      "recruiter_response_rate": 0.61,
+      "avg_response_time_hours": 11.9,
+      "skill_assessment_scores": {
+        "Learning to Rank": 86.6,
+        "Sentence Transformers": 73.1,
+        "FAISS": 64.0
+      },
+      "connection_count": 219,
+      "endorsements_received": 164,
+      "notice_period_days": 45,
+      "expected_salary_range_inr_lpa": {
+        "min": 46.3,
+        "max": 50.5
+      },
+      "preferred_work_mode": "hybrid",
+      "willing_to_relocate": false,
+      "github_activity_score": 34.2,
+      "search_appearance_30d": 777,
+      "saved_by_recruiters_30d": 43,
+      "interview_completion_rate": 0.86,
+      "offer_acceptance_rate": 0.54,
+      "verified_email": true,
+      "verified_phone": true,
+      "linkedin_connected": true
+    }
+  }
+]

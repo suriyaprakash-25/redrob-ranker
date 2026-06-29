@@ -4,15 +4,15 @@
 # ============================================================================
 # Team identity
 # ============================================================================
-team_name: "PLACEHOLDER_TEAM_NAME"  # Fill in before portal submission
+team_name: "HackerX"
 
 primary_contact:
-  name: "PLACEHOLDER_NAME"
+  name: "SURIYA PRAKASH R M"
   email: "suriyaprakashrm25@gmail.com"
-  phone: "PLACEHOLDER_PHONE"
+  phone: "6383191041"
 
 team_members:
-  - name: "PLACEHOLDER_NAME"
+  - name: "SURIYA PRAKASH R M"
     email: "suriyaprakashrm25@gmail.com"
     role: "ML Engineer / Solo Participant"
 

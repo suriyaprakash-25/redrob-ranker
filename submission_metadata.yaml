@@ -40,10 +40,10 @@ compute:
   pre_computation_time_minutes: 0
 
   # Measured end-to-end runtime on this machine (rank.py, full 100K candidates):
-  #   Cold start (first run): 116.3s
-  #   Warm run (second run, same session): 64.7s
-  # Both well inside the 300s budget. Reported conservatively as the cold-start time.
-  measured_runtime_seconds: 116.3
+  #   Cold start (first run): 63.6s (wall clock, 2026-06-30 re-run on same machine)
+  #   Warm run (second run, same session): ~61s
+  # Both well inside the 300s budget.
+  measured_runtime_seconds: 63.6
 
 # ============================================================================
 # AI tools declaration

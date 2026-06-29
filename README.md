@@ -27,7 +27,7 @@ a 100,000-candidate pool against the Senior AI Engineer JD.
 
 ```bash
 pip install -r requirements.txt
-python rank.py --candidates /path/to/candidates.jsonl --out submission.csv
+python rank.py --candidates candidates.jsonl --out submission.csv
 python validate_submission.py submission.csv
 ```
 

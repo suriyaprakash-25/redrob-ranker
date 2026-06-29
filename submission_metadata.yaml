@@ -1,0 +1,95 @@
+# Redrob Hackathon — Submission Metadata
+# Generated from submission_metadata_template.yaml, filled in for this submission.
+
+# ============================================================================
+# Team identity
+# ============================================================================
+team_name: "PLACEHOLDER_TEAM_NAME"  # Fill in before portal submission
+
+primary_contact:
+  name: "PLACEHOLDER_NAME"
+  email: "suriyaprakashrm25@gmail.com"
+  phone: "PLACEHOLDER_PHONE"
+
+team_members:
+  - name: "PLACEHOLDER_NAME"
+    email: "suriyaprakashrm25@gmail.com"
+    role: "ML Engineer / Solo Participant"
+
+# ============================================================================
+# Code and reproducibility
+# ============================================================================
+github_repo: "https://github.com/suriyaprakash-25/redrob-ranker"
+
+sandbox_link: "https://huggingface.co/spaces/Suriya-25/redrob-ranker"
+
+reproduce_command: "python rank.py --candidates candidates.jsonl --out submission.csv"
+
+# ============================================================================
+# Compute environment
+# ============================================================================
+compute:
+  platform: "Windows 11 laptop — Intel Core 5 210H (8 cores / 12 threads)"
+  cpu_cores: 8
+  ram_gb: 16
+  python_version: "3.11.7"
+  os: "Windows 11 Home, build 26200"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: false
+  pre_computation_time_minutes: 0
+
+  # Measured end-to-end runtime on this machine (rank.py, full 100K candidates):
+  #   Cold start (first run): 116.3s
+  #   Warm run (second run, same session): 64.7s
+  # Both well inside the 300s budget. Reported conservatively as the cold-start time.
+  measured_runtime_seconds: 116.3
+
+# ============================================================================
+# AI tools declaration
+# ============================================================================
+ai_tools_used:
+  - "Claude"  # Architecture, code, validation against real dataset
+
+ai_usage_summary: |
+  Used Claude (Anthropic) as the primary development tool throughout — for
+  architecture discussion, code implementation, and validation against the
+  real 100K-candidate dataset. Importantly, candidate data was never fed to
+  any hosted LLM during the ranking pipeline itself: the scoring pipeline
+  is fully deterministic and runs locally (no API calls). Claude was used
+  offline for development only, not as a component in the ranking system.
+  Bugs found and fixed during validation (false-positive honeypot signal,
+  vocabulary gap in must-have skill families, scoring architecture allowing
+  keyword-stuffer compensation, location string mismatches) are documented
+  in VALIDATION_LOG.md.
+
+# ============================================================================
+# Approach summary
+# ============================================================================
+methodology_summary: |
+  Multi-stage deterministic ranking pipeline designed to avoid the keyword-
+  stuffer trap the JD explicitly describes. Five scoring components: (1)
+  Structured JD-fit: title/function match with an off-target-title hard gate
+  (not just a weighted input), experience band, must-have skill families,
+  location, notice period. (2) TF-IDF/SVD semantic similarity on career_history
+  prose vs. a JD-derived profile text — recovers candidates whose vocabulary
+  paraphrases JD concepts rather than copying them (validated against 8
+  manually-identified gold candidates who used rare synonyms like "Vector
+  Representations" and "Search & Discovery"). (3) Trust multiplier: penalises
+  profiles where self-reported proficiency diverges from platform-tested skill
+  assessment scores. (4) Behavioral availability modifier from redrob_signals.
+  (5) Honeypot hard gate: internal-consistency checks force fabricated profiles
+  to the bottom regardless of other scores. Final score: 0.55*structured +
+  0.45*semantic, multiplied by trust and availability. No GPU, no network, no
+  hosted LLM API calls anywhere in the pipeline. Runtime: 116s cold-start on
+  CPU (well inside the 5-minute budget).
+
+# ============================================================================
+# Declarations
+# ============================================================================
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true    # Confirmed 0 honeypots in top 100 (out of ~59 detected)
+  reproduction_tested: true    # rank.py runs end-to-end; validate_submission.py passes

@@ -180,12 +180,19 @@ def _top_concern_notes(result: FinalScoreResult, n: int = 2) -> list[str]:
     hits = [n_ for n_ in all_notes if any(m in n_ for m in concern_markers)]
     if len(hits) <= n:
         return hits
-    # Deterministic rotation: use a hash of candidate_id to pick a starting
-    # offset into the available concerns, instead of always slicing [:n].
+    # Outside-India location is a hiring-feasibility concern (no visa
+    # sponsorship), not just a fit gap. Always surface it first so the
+    # recruiter sees it regardless of which other concerns the rotation
+    # selects. Rotation still applies to the remaining slots.
+    priority = [h_ for h_ in hits if "based outside India" in h_]
+    rest = [h_ for h_ in hits if "based outside India" not in h_]
+    if len(priority) >= n:
+        return priority[:n]
+    remaining = n - len(priority)
     h = int(hashlib.sha256((result.candidate_id + "concernrot").encode()).hexdigest(), 16)
-    start = h % len(hits)
-    rotated = hits[start:] + hits[:start]
-    return rotated[:n]
+    start = h % len(rest)
+    rotated = rest[start:] + rest[:start]
+    return priority + rotated[:remaining]
 
 
 def generate_reasoning(candidate: dict, result: FinalScoreResult) -> str:

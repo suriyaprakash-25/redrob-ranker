@@ -71,6 +71,13 @@ MUST_HAVE_SKILL_FAMILIES = {
         "openai embeddings", "bge", "e5", "dense retrieval", "semantic search",
         "vector search", "retrieval", "information retrieval", "vector representations",
         "text encoders",
+        # RAG orchestration frameworks that inherently involve embedding models
+        # and retrieval pipelines — not just infrastructure. Haystack (deepset)
+        # and LlamaIndex both require selecting, calling, and managing embedding
+        # models as a core workflow. Qdrant is intentionally kept out of this
+        # family (it is a vector DB / infra layer; using it does not necessarily
+        # imply generating embeddings yourself).
+        "haystack", "llamaindex",
     ],
     "vector_or_hybrid_search_infra": [
         "pinecone", "weaviate", "qdrant", "milvus", "opensearch",
@@ -126,7 +133,8 @@ NON_NLP_DEEP_TECH_FIELDS = ["computer vision", "speech recognition", "robotics"]
 # ---------------------------------------------------------------------------
 PREFERRED_LOCATIONS = ["pune", "noida"]
 ACCEPTABLE_INDIA_LOCATIONS = ["hyderabad", "pune", "mumbai", "delhi", "noida",
-                               "gurugram", "gurgaon", "ncr"]
+                               "gurugram", "gurgaon", "ncr",
+                               "bangalore", "bengaluru"]  # both spellings in active use
 TARGET_COUNTRY = "india"
 NO_VISA_SPONSORSHIP = True  # outside-India candidates are case-by-case, no sponsorship
 

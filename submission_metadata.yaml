@@ -9,6 +9,7 @@ team_name: "HackerX"
 primary_contact:
   name: "SURIYA PRAKASH R M"
   email: "suriyaprakashrm25@gmail.com"
+  phone: "+91-6383191041" 
 
 team_members:
   - name: "SURIYA PRAKASH R M"
@@ -51,7 +52,7 @@ ai_tools_used:
   - "Claude"  # Architecture, code, validation against real dataset
 
 ai_usage_summary: |
-  Used Claude (Anthropic) as the primary development tool throughout — for
+  Used Claude (Anthropic) as the development tool — for
   architecture discussion, code implementation, and validation against the
   real 100K-candidate dataset. Importantly, candidate data was never fed to
   any hosted LLM during the ranking pipeline itself: the scoring pipeline

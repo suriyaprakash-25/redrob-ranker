@@ -121,7 +121,6 @@ candidates.jsonl (100K)
 | `src/final.py` | Combines all of the above into `final_score`. |
 | `src/reasoning.py` | Deterministic, fact-grounded reasoning text generator. |
 | `VALIDATION_LOG.md` | Real findings + bugs caught/fixed against the actual dataset. **Read this.** |
-| `PLAN.md` | Original implementation plan (completed — documents build phases and architectural decisions). |
 | `data/gold_candidates.json` | 8 manually-discovered high-confidence "ideal candidate" profiles, used throughout as a validation set. |
 | `hackathon_bundle_docs/` | Markdown copies of the original hackathon docs (JD, submission spec, signals reference, schema) for quick reference without re-opening the original .docx files. |
 

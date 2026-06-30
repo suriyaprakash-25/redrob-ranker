@@ -53,7 +53,7 @@ ai_tools_used:
 
 ai_usage_summary: |
   Used Claude (Anthropic) as the development tool — for
-  architecture discussion, code implementation, and validation against the
+  code implementation, and validation against the
   real 100K-candidate dataset. Importantly, candidate data was never fed to
   any hosted LLM during the ranking pipeline itself: the scoring pipeline
   is fully deterministic and runs locally (no API calls). Claude was used

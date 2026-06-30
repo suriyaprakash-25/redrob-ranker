@@ -79,8 +79,7 @@ candidates.jsonl (100K)
                  submission.csv
 ```
 
-## Why this architecture (short version — see job_description.md +
-VALIDATION_LOG.md for the long version)
+## Why this architecture
 
 - **The JD explicitly states the trap**: "the right answer is not 'find
   candidates whose skills section contains the most AI keywords.'" Pure

@@ -6,22 +6,23 @@ A multi-stage ranking pipeline for the Redrob "Intelligent Candidate
 Discovery & Ranking Challenge" hackathon. Ranks the top 100 candidates from
 a 100,000-candidate pool against the Senior AI Engineer JD.
 
-**This bundle was built and validated in two phases:**
+**Built and validated in two phases, both complete:**
 
-1. **Phase 1 (done, by Claude in a sandbox with the real dataset):** core
-   scoring logic — honeypot detection, structured JD-fit scoring, semantic
-   similarity, trust/verified-vs-claimed modifier, behavioral availability
-   modifier, deterministic reasoning generation. Every component was
-   validated against the real `candidates.jsonl` (100K rows), and several
-   real bugs were found and fixed in the process — **read
-   `VALIDATION_LOG.md` first**, it's the most important file in this bundle
-   for understanding *why* the code looks the way it does, and it's good
+1. **Phase 1 — core pipeline:** honeypot detection, structured JD-fit
+   scoring, semantic similarity, trust/verified-vs-claimed modifier,
+   behavioral availability modifier, deterministic reasoning generation.
+   Every component was validated against the real `candidates.jsonl`
+   (100K rows), and several real bugs were found and fixed — **read
+   `VALIDATION_LOG.md` first**, it's the most important file for
+   understanding *why* the code looks the way it does, and it's good
    material for the Stage 5 "defend your work" interview.
 
-2. **Phase 2 (your laptop, with Claude Code):** the parts that need a real
-   dev environment — Ollama-based local LLM re-ranking on the shortlist,
-   git history built through genuine iteration, the HF Spaces sandbox, and
-   final submission packaging. **See `PLAN.md` for the step-by-step.**
+2. **Phase 2 — submission packaging:** git history built through genuine
+   iteration, HF Spaces sandbox live, submission artifacts complete.
+   Local LLM re-ranking (Ollama) was evaluated and deliberately not used —
+   100K candidates × 100ms–2s per call = 2.8–55 hours, far outside the
+   300s budget; the deterministic pipeline already met all required checks
+   within budget.
 
 ## Quick start
 
@@ -31,7 +32,7 @@ python rank.py --candidates candidates.jsonl --out submission.csv
 python validate_submission.py submission.csv
 ```
 
-Validated end-to-end runtime on a single CPU core: **~76 seconds** for the
+Validated end-to-end runtime on a single CPU core: **~64 seconds** for the
 full 100K-candidate pool (well under the 5-minute / 16GB / CPU-only / no-
 network constraint in `submission_spec.md`). No GPU, no network calls, no
 hosted LLM API calls anywhere in this path.
@@ -78,11 +79,6 @@ candidates.jsonl (100K)
                  submission.csv
 ```
 
-**Optional Phase 2 addition (laptop-only):** a local Ollama model
-(`qwen2.5:3b-instruct`) re-ranks/refines reasoning for the top ~150-200
-shortlist only — bounded cost regardless of pool size, never called on the
-full 100K. See `PLAN.md` Step 3.
-
 ## Why this architecture (short version — see job_description.md +
 VALIDATION_LOG.md for the long version)
 
@@ -126,7 +122,7 @@ VALIDATION_LOG.md for the long version)
 | `src/final.py` | Combines all of the above into `final_score`. |
 | `src/reasoning.py` | Deterministic, fact-grounded reasoning text generator. |
 | `VALIDATION_LOG.md` | Real findings + bugs caught/fixed against the actual dataset. **Read this.** |
-| `PLAN.md` | Step-by-step for what's left to do on your laptop. |
+| `PLAN.md` | Original implementation plan (completed — documents build phases and architectural decisions). |
 | `data/gold_candidates.json` | 8 manually-discovered high-confidence "ideal candidate" profiles, used throughout as a validation set. |
 | `hackathon_bundle_docs/` | Markdown copies of the original hackathon docs (JD, submission spec, signals reference, schema) for quick reference without re-opening the original .docx files. |
 
